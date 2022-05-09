@@ -1,0 +1,37 @@
+/* overflow-x */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#landing {
+  background: linear-gradient(
+      rgba(238, 14, 14, 0.45),
+      rgba(0, 0, 0, 0.45)
+    ),
+  url(/images/GCar.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+}
+
+.nav {
+  width: 100%;
+  position: fixed;
+  background-color: black;
+}
+
+.nav a {
+  color: silver;
+  margin: 0px 20px;
+  font-size: 1.3em;
+}
+
+.nav a:hover {
+  text-decoration:underline;
+}
+
