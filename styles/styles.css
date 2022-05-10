@@ -1,4 +1,4 @@
-/* overflow-x */
+
 *{
   margin: 0;
   padding: 0;
@@ -23,17 +23,17 @@ body {
   background-image: url(../images/MJ.webp);
   background-position: center;
   background-repeat: no-repeat;
-  width 48px;
+  width: 48px;
   height: 48px;
 }
 
 .navbar-toggler{
-  color: aqua;
+  color: white;
 }
 .navbar {
   width: 100%;
   position: fixed;
-  background-color: rgb(230, 0, 0);
+  background-color: black;
 }
 
 .navbar a {
