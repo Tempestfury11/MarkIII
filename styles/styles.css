@@ -19,18 +19,89 @@ body {
   margin: 0;
 }
 
-.nav {
-  width: 100%;
-  position: fixed;
-  background-color: black;
+.navbar-brand{
+  background-image: url(../images/MJ.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  width 48px;
+  height: 48px;
 }
 
-.nav a {
+.navbar-toggler{
+  color: aqua;
+}
+.navbar {
+  width: 100%;
+  position: fixed;
+  background-color: rgb(230, 0, 0);
+}
+
+.navbar a {
   color: silver;
   margin: 0px 20px;
   font-size: 1.3em;
 }
 
-.nav a:hover {
-  text-decoration:underline;
+.navbar a:hover {
+  text-decoration:red
+}
+
+.card1 {
+  text-align: left;
+  background: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-right: auto;
+  margin-left: auto;
+  position: static;
+  width: 70%;
+  height: 270px;
+  border-radius: 10px;
+  margin-top: 20px;
+  border: 5px solid white;
+  box-shadow: 15px 8px #e4e4e4;
+  margin-bottom: 50px;
+}
+
+.card2 {
+  text-align: right;
+  background: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-right: auto;
+  margin-left: auto;
+  position: static;
+  width: 70%;
+  height: 270px;
+  border-radius: 10px;
+  margin-top: 20px;
+  border: 5px solid white;
+  box-shadow: 15px 8px #e4e4e4;
+  margin-bottom: 50px;
+}
+
+.card {
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+}
+
+.jobs-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.jobs-container img{
+  max-height: 20%;
+  max-width: 20%;
+  flex-grow: 1;
+  object-fit: cover;
+}
+
+#img-jobs{
+  width: 20%;
 }
