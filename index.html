@@ -25,10 +25,9 @@
               
                     <li class="nav-item"><a href="#landing" class="nav-link"><i class="bi bi-house"></i>HOME</a></li>
                     <li class="nav-item"><a href="#about" class="nav-link"><i class="bi bi-file-earmark-person"></i>ABOUT</a></li>
-                    <li class="nav-item"><a href="#projects" class="nav-link"><i class="bi bi-hammer"></i>PROJECTS</a></li>
                     <li class="nav-item"><a href="#resume" class="nav-link"><i class="bi bi-clipboard"></i>RESUME</a></li>
-                    <li class="nav-item"><a href="#testimonials" class="nav-link"><i class="bi bi-megaphone"></i>TESTIMONIALS</a></li>
                     <li class="nav-item"><a href="#contact" class="nav-link"><i class="bi bi-phone"></i>CONTACT</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link"><i class="bi bi-hammer"></i>PROJECTS</a></li>
                     </ul>
                 </div>
             </div>
@@ -72,17 +71,22 @@
                 <span class="text-center"><h1>Resume</h1></span>
                 <span class="text-center"><h2>Education</h2></span>
                 <div class="card1" style="width: 18rem;">
-                    <div class="card-body" data-aos="fade-right">
+                    <div class="card-body" data-aos="flip-right"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="1000">
                       <h5 class="card-title">Alexander Sinton</h5>
                       <p class="card-text">I started my highschool career off at Alexander Sinton High, based in Crawford. I was only there for a year however I learned how to play guitar in my time there</p>
                     </div>
                 </div>
                 <div class="card2" style="width: 18rem;">
-                    <div class="card-body" data-aos="fade-left">
+                    <div class="card-body" data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="1000">
                       <h5 class="card-title">School of Hope</h5>
                       <p class="card-text">For the rest of my highschool career, I attended School of Hope in Observatory. I was a part of the RCL for 4years and Deputy Headboy for 3.</p>
                     </div>
                 </div>
+
                 <div>
                   <section class="container-fluid bg-dark text-light py-5" id="jobs">
                     <div class="row">
@@ -92,7 +96,7 @@
                         <div class="col-md-6">
                           <div class="resume-item mb-4 text-center" data-aos="flip-right"
                           data-aos-easing="ease-out-cubic"
-                          data-aos-duration="2000">
+                          data-aos-duration="1000">
                             <h2><i class="bi bi-briefcase">Woolworths</i></h2>
                             <p class="lead">
                               <ul>
@@ -104,7 +108,7 @@
                             </p>
                           </div>
                           <div class="resume-item mb-4 text-center" data-aos="fade-up"
-                          data-aos-duration="3000">
+                          data-aos-duration="1000">
                             <h2><i class="bi bi-briefcase">Merchants</i></h2>
                             <p class="lead">
                               <ul>
@@ -131,7 +135,7 @@
                         <div class="col-md-6">
                           <div class="resume-item mb-4 text-center" data-aos="flip-left"
                           data-aos-easing="ease-out-cubic"
-                          data-aos-duration="2000">
+                          data-aos-duration="1000">
                             <h2><i class="bi bi-briefcase">Woolworths</i></h2>
                             <p class="lead">
                               <ul>
@@ -143,7 +147,7 @@
                             </p>
                           </div>
                           <div class="resume-item mb-4 text-center" data-aos="fade-up"
-                          data-aos-duration="3000">
+                          data-aos-duration="1000">
                             <h2><i class="bi bi-briefcase">Takealot</i></h2>
                             <p class="lead">
                               <ul>
@@ -168,7 +172,68 @@
                         </div>
                     </div>
                 </section>
-                 </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container py-5 d-flex flex-md-wrap justify-content-center text-light" id="testimonials">
+          <span class="text-center"><h1>Testimonials</h1></span>
+
+                  <!-- Carousel -->
+        <div id="testimonial" class="carousel slide" data-bs-ride="carousel">
+
+          <!-- Indicators/dots -->
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#testimonial" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#testimonial" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#testimonial" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#testimonial" data-bs-slide-to="3"></button>
+            <button type="button" data-bs-target="#testimonial" data-bs-slide-to="4"></button>
+          </div>
+          
+          <!-- The slideshow/carousel -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="/images/testimonials/Cassidy.JPG" alt="Los Angeles" class="mx-auto d-block" id="test-img" style="width:25%">
+              <div class="carousel-caption" id="text-par">
+                <h3>Cassidy Manuel</h3>
+                <p>"Marshalino Jankowski is one of the most hardworking people i know that was blessed with a never give up attitude. He is a great asset to the team as he has an infectious smile and he always makes the people around him laugh with making light out of stressful situations."</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="/images/testimonials/Emile.JPG" alt="Chicago" class="mx-auto d-block" id="test-img" style="width:25%">
+              <div class="carousel-caption" id="text-par">
+                <h3>Emile Van Wyk</h3>
+                <p>"Marshalino Jankowski, a talented and diligent individual with a can do attitude, in stressful situations he jumps to action and takes charge. In my time with him I've seen him put in the effort to improve himself and his work which any team could appreciate. He is an well put together guy easy going and fun to be around but who can take initiative when needed."</p>
+              </div> 
+            </div>
+            <div class="carousel-item">
+              <img src="/images/testimonials/Mikhail.JPG" alt="New York" class="mx-auto d-block" id="test-img" style="width:25%">
+              <div class="carousel-caption" id="text-par">
+                <h3>Mikhail Thomas</h3>
+                <p>"I was in a class with Marshalino for a while and his writing and research skills are truly phenomenal he brings a positive energy to all group activities and is always willing to help his peers when he can. He is always excels at work he is given and has excellent time management skills he will be a valuable asset to any team he is part of."</p>
+              </div>  
+            </div>
+            <!-- <div class="carousel-item">
+              <img src="/images/testimonials/joel3.jpg" alt="New York" class="mx-auto d-block" id="test-img" style="width:25%">
+              <div class="carousel-caption" id="text-par">
+                <h3>Joel Mukanya</h3>
+                <p>I have known Marshalino for the duration of his studies at Lifechoices. He grasps new concepts quickly and accepts constructive criticism and instruction concerning his work</p>
+              </div>  
+            </div> -->
+            <div class="carousel-item">
+              <img src="/images/testimonials/Monique.JPG" alt="New York" class="mx-auto d-block" id="test-img" style="width:25%">
+              <div class="carousel-caption" id="text-par">
+                <h3>Monique Dampies</h3>
+                <p>"Marshalino is a very committed individual and will be a benefit to anything he is a part of. Marshalino does not let allow any circumstances to disadvantage him."</p>
+              </div>  
+            </div>
+          </div>
+        </div>
+        </div>
+        
+
+                
 
     </main>
 

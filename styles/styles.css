@@ -97,3 +97,33 @@ body {
   border-radius: 7px;
 }
 
+[data-aos] {
+  pointer-events: none;
+}
+.aos-animate {
+  pointer-events: auto;
+}
+.aos-init[data-aos][data-aos].aos-animate {
+  transform: unset;
+}
+
+#test-img {
+  justify-content: center;
+  border-radius: 50%;
+}
+
+#testimonials {
+  background: linear-gradient(
+    rgba(66, 57, 57, 0.45),
+    rgba(0, 0, 0, 0.45)
+  ),
+url(/images/testimonials/guitar2.jpg);
+background-size: cover;
+background-attachment: fixed;
+overflow-x: hidden;
+}
+
+#text-par {
+  background-color: black;
+}
+
