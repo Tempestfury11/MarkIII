@@ -7,13 +7,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="/styles/styles.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <title>Mark III</title>
 </head>
 
 <body>
 <header>
     <section id="nav">       
-        <nav class="navbar navbar-expand-lg d-flex justify-content-center">
+        <nav class="navbar navbar-dark navbar-expand-lg d-flex justify-content-center">
             <div class="container-fluid" style="background: transparent;">
                 <a class="navbar-brand"><img src="/images/MJ.webp" alt="logo" height="50" width="50"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,12 +23,12 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav mx-md-auto justify-content-center gap-2">
               
-                    <li class="nav-item"><a href="#landing" class="nav-link">HOME</a></li>
-                    <li class="nav-item"><a href="#about" class="nav-link active">ABOUT</a></li>
-                    <li class="nav-item"><a href="#projects" class="nav-link">PROJECTS</a></li>
-                    <li class="nav-item"><a href="#resume" class="nav-link">RESUME</a></li>
-                    <li class="nav-item"><a href="#testimonials" class="nav-link">TESTIMONIALS</a></li>
-                    <li class="nav-item"><a href="#contact" class="nav-link">CONTACT</a></li>
+                    <li class="nav-item"><a href="#landing" class="nav-link"><i class="bi bi-house"></i>HOME</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link"><i class="bi bi-file-earmark-person"></i>ABOUT</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link"><i class="bi bi-hammer"></i>PROJECTS</a></li>
+                    <li class="nav-item"><a href="#resume" class="nav-link"><i class="bi bi-clipboard"></i>RESUME</a></li>
+                    <li class="nav-item"><a href="#testimonials" class="nav-link"><i class="bi bi-megaphone"></i>TESTIMONIALS</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link"><i class="bi bi-phone"></i>CONTACT</a></li>
                     </ul>
                 </div>
             </div>
@@ -79,20 +80,21 @@
                 <div class="card2" style="width: 18rem;">
                     <div class="card-body" data-aos="fade-left">
                       <h5 class="card-title">School of Hope</h5>
-                      <p class="card-text">For the rest of my highschool career, I attended School of Hope in Observatory. I was duty headboy for 3years and a part of the RCL for 4years. I also started the first soccer team and captained them till I martriculated</p>
+                      <p class="card-text">For the rest of my highschool career, I attended School of Hope in Observatory. I was a part of the RCL for 4years and Deputy Headboy for 3.</p>
                     </div>
                 </div>
-                <span class="text-center"><h1>Work Experience</h1></span>
                 <div>
                   <section class="container-fluid bg-dark text-light py-5" id="jobs">
                     <div class="row">
                         <div class="col-md-12 mb-5">
-                            <h2 class="display-lead text-center">Taskforce - Ghost Of Valor</h2>
+                            <h2 class="display-lead text-center">Work Experience</h2>
                         </div>
                         <div class="col-md-6">
-                          <div class="resume-item mb-4">
-                            <img class="img-fluid" src="/images/jobs/woolworths2.webp" id="prework" width="300" height="300" alt="woolworths">
-                            <p class="lead text-center">
+                          <div class="resume-item mb-4 text-center" data-aos="flip-right"
+                          data-aos-easing="ease-out-cubic"
+                          data-aos-duration="2000">
+                            <h2><i class="bi bi-briefcase">Woolworths</i></h2>
+                            <p class="lead">
                               <ul>
                                 <ul>Duties : Manage stock control, providing customer service and facilitate transactions through sales</ul>
                                 <ul>Duration : June 2017 to January 2018</ul>
@@ -101,9 +103,10 @@
                               </ul>
                             </p>
                           </div>
-                          <div class="resume-item mb-4">
-                            <img class="img-fluid" src="/images/jobs/merchants1.jpg" id="prework" width="300" height="300"  alt="merchants">
-                            <p class="lead text-center">
+                          <div class="resume-item mb-4 text-center" data-aos="fade-up"
+                          data-aos-duration="3000">
+                            <h2><i class="bi bi-briefcase">Merchants</i></h2>
+                            <p class="lead">
                               <ul>
                                 <ul>Duties : Manage Inbound and outbound calls, providing customer service
                                   through emails, LiveChat and Social Media</ul>
@@ -113,9 +116,9 @@
                               </ul>
                             </p>
                           </div>
-                          <div class="resume-item mb-4">
-                            <img class="img-fluid" src="/images/jobs/Capita1.jpg" id="prework" width="300" height="300"  alt="capita">
-                            <p class="lead text-center">
+                          <div class="resume-item mb-4 text-center" data-aos="zoom-in-up">
+                            <h2><i class="bi bi-briefcase">Capita</i></h2>
+                            <p class="lead">
                               <ul>
                                 <ul>Duties : Managing customer queries and accounts providing customer service through voice and emails</ul>
                                 <ul>Duration : January 2021 to May 2021</ul>
@@ -126,9 +129,11 @@
                           </div>
                         </div>
                         <div class="col-md-6">
-                          <div class="resume-item mb-4">
-                            <img class="img-fluid" src="/images/jobs/woolworths.webp" id="prework" width="300" height="300"  alt="merchants">
-                            <p class="lead text-center">
+                          <div class="resume-item mb-4 text-center" data-aos="flip-left"
+                          data-aos-easing="ease-out-cubic"
+                          data-aos-duration="2000">
+                            <h2><i class="bi bi-briefcase">Woolworths</i></h2>
+                            <p class="lead">
                               <ul>
                                 <ul>Duties : Manage stock control, providing customer service and facilitate transactions through sales</ul>
                                 <ul>Duration : November 2018 to January 2019</ul>
@@ -137,19 +142,21 @@
                               </ul>
                             </p>
                           </div>
-                          <div class="resume-item mb-4">
-                            <img class="img-fluid" src="/images/jobs/Takealot1.webp" id="prework" width="300" height="300"  alt="merchants">
-                            <p class="lead text-center">
+                          <div class="resume-item mb-4 text-center" data-aos="fade-up"
+                          data-aos-duration="3000">
+                            <h2><i class="bi bi-briefcase">Takealot</i></h2>
+                            <p class="lead">
                               <ul>
                                 <ul>Duties : Managing customer queries and accounts providing customer service through voice and emails</ul>
                                 <ul>Duration : June 2020 to August 2020</ul>
                                 <ul>Location : Work From Home</ul>
+                                <ul>References : Kirsten Klein (062 390 8944)</ul>
                               </ul>
                             </p>
                           </div>
-                          <div class="resume-item mb-4">
-                            <img class="img-fluid" src="/images/jobs/BES.jpg" id="prework" width="300" height="300"  alt="merchants">
-                            <p class="lead text-center">
+                          <div class="resume-item mb-4 text-center" data-aos="zoom-in-up">
+                            <h2><i class="bi bi-briefcase" >BES Utilities</i></h2>
+                            <p class="lead">
                               <ul>
                                 <ul>Duties : Managing customer queries and accounts providing customer service through voice and emails</ul>
                                 <ul>Duration : November July 2021 to April 2022</ul>
